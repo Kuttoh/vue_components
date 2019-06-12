@@ -1,10 +1,15 @@
 <template>
 
-  <div id="app">
+  <div id="app" class="container">
     This is the message to display: {{msg}}
 
     <welcome></welcome>
   <task-list></task-list>
+
+    <message title="Hello world" body="Lorem ipsum dolor sit amet, consectetur adipiscing elit."></message>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
 
   </div>
 
@@ -14,10 +19,11 @@
  import welcome from "./welcome"
  import newTask from "./newTask"
  import taskList from "./taskList"
+ import message from "./message"
 
 export default {
   name: 'app',
-  components: {taskList, newTask, welcome},
+  components: {taskList, newTask, welcome, message},
   data () {
     return {
       msg: 'Lion King'

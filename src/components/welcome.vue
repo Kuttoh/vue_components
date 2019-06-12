@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: "welcome",
+        // name: "welcome",
         template: '<p>Welcome Home King</p>'
     }
 </script>

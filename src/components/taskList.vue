@@ -14,7 +14,8 @@
                     {description: "Wake-up", complete: true},
                     {description: "Spread your bed", complete: true},
                     {description: "Shower", complete: true},
-                    {description: "Eat breakfast", complete: false}
+                    {description: "Eat breakfast", complete: false},
+                    {description: "Go to work", complete: true}
                 ]
             }
         }

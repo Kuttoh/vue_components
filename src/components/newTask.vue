@@ -4,7 +4,7 @@
 
 <script>
     export default {
-        name: "new-task",
+        // name: "new-task",
         template: '<ul> <slot></slot> </ul>'
     }
 </script>
